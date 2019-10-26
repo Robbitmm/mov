@@ -2,7 +2,7 @@ iframe{
     width: 560px;
     height: 315px;
 
-    display: none;
+    display: block;
     margin: auto;
 }
 
@@ -42,4 +42,12 @@ iframe{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 550px;
+}
+
+#logo {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 250px;
+    /*float: left;*/
 }
