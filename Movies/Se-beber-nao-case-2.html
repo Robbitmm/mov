@@ -1,16 +1,27 @@
 ﻿<html>
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8"/>
     <link rel="stylesheet" href="../Styles/seq.css"/>
 	<link rel="stylesheet" href="../Styles/moviePg.css" />
+
+    <script src="../Scripts/btn.js"></script>
+
 	<title>Se beber não case 2</title>
 </head>
 <body>
     <h1 class="Title">Se beber não case 2</h1>
     <h2 class="Sub Title"></h2>
 
-    <iframe src="https://drive.google.com/file/d/1iJk7uEQvZYn2yXwo-qmtTQuPT9aM5TiI/preview?"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+    <iframe id="movieFrame" src=""
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <div class="menu-button">
+        <div id="btn" class="btn">
+            <button class="btn-audio" id="button-dublado" value="dublado" onclick="db()">Dublado</button>
+            <button class="btn-audio" id="button-legendado" value="legendado" onclick="lg()">Legendado</button>
+        </div>
+    </div>
 
     <div class="sequencia">
         <nav class="titulo Se-beber-nao-case">
