@@ -1,7 +1,17 @@
-.sequencia { 
+.sequencia1{
+    margin-top: 20px;
+    margin-left: 580px;
+}
+
+.sequencia2 { 
     margin-left: 460px;
     margin-top: 20px;
 }/*Para títulos com duas sequências*/
+
+ .sequencia3{
+     margin-top: 20px;
+     margin-left: 350px;
+ }
 
 .capa {
     width: 184px;
