@@ -8,6 +8,8 @@
 .capa {
     width: 184px;
     height: 274px;
+
+    border-radius: 10px;
 }
 
 a{
@@ -35,9 +37,10 @@ a{
     position: absolute;
     
     right: 35px;
-    bottom: -15px; /*Não pode ser usando top*/
+    bottom: -15px; /*NÃ£o pode ser usando top*/
 
     width: 145px;
+    border-radius: 10px;
 
     display: inline-block;
     transition: transform .25s linear;

@@ -10,6 +10,8 @@ h2{
 .Chernobyl img {
     width: 480px;
     height: 270px;
+
+    border-radius: 10px;
 }
 
 .content{
@@ -57,6 +59,7 @@ a{
     bottom: -15px; /*Não pode ser usando top*/
 
     width: 440px;
+    border-radius: 10px;
 
     display: inline-block;
     transition: transform .25s linear;
