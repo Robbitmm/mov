@@ -1,19 +1,34 @@
 ﻿<html>
 <head>
-	<meta charset="utf-8"/>
+    <meta charset="utf-8"/>
+    
     <link rel="stylesheet" href="../../Styles/seq.css"/>
-	<link rel="stylesheet" href="../../Styles/moviePg.css" />
+    <link rel="stylesheet" href="../../Styles/moviePg.css" />
+    <link rel="stylesheet" href="../../Styles/menu.css"/>
 
     <script type="text/javascript" src="../../Scripts/btn_a.js"></script>
+    <script type="text/javascript" src="../../Scripts/Btn.js"></script>
 
 	<title>Se beber não case 2</title>
 </head>
 <body>
     <header>
-        <a href="../../index.html">
-            <img id="logo" class="Logo" src="../../Images/Logo black.png" />
-        </a>
+        <nav>
+            <ul id="Btn" class="Menu Menu_bar close">
+                <li><a href="../../index.html">Menu</a></li>
+                <!--<li><a href="#">Categorias</a></li>-->
+                <li><a href="../../index.html#Filmes">Filmes</a></li>
+                <li><a href="../../index.html#Series">Séries</a></li>
+            </ul>
+        </nav>
+
+        <img id="BtnMenu" class="btnMenu open" src="../../Images/Btn_menu.png" onclick="Condition_menu()"/>
+        <img id="logo" class="Logo" src="../../Images/Logo black.png" />
+        <img class="search_icon" src="../../Images/Search.png" onclick="Condition_search()"/>
+
+        <input id="search_input" class="search close"/>
     </header>
+
 
     <h1 class="Title">Se beber não case 2</h1>
     <h2 class="Sub Title"></h2>
@@ -21,7 +36,7 @@
     <iframe id="movieFrame" src="" style="display: none"
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <div class="menu-button">
+    <div id="menu-button" class="menu-button">
         <div id="btn" class="btn">
             <button class="btn-audio" id="button-dublado" value="dublado" onclick="db()">Dublado</button>
             <button class="btn-audio" id="button-legendado" value="legendado" onclick="lg()">Legendado</button>

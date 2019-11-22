@@ -1,14 +1,38 @@
 ﻿<html lang="pt-br">
     <head>
         <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <script src="Scripts/Btn.js"></script>
+
         <link rel="stylesheet" href="Styles/home.css"/>
+        <link rel="stylesheet" href="Styles/menu.css"/>
 
         <title>Home - Watchers</title>
     </head>
 
     <body>
+        <header>
+            <nav>
+                <ul id="Btn" class="Menu Menu_bar close">
+                    <li><a href="#">Menu</a></li>
+                    <!--<li><a href="#">Categorias</a></li>-->
+                    <li><a href="#Filmes">Filmes</a></li>
+                    <li><a href="#Series">Séries</a></li>
+                </ul>
+            </nav>
+    
+            <img id="BtnMenu" class="btnMenu open" src="Images/Btn_menu.png" onclick="Condition_menu()"/>
+            <img id="logo" class="Logo" src="Images/Logo black.png" />
+            <img class="search_icon" src="Images/Search.png" onclick="Condition_search()"/>
+    
+            <input id="search_input" class="search close"/>
+        </header>
+
         <div class="filmes">
-            <h1>Filmes</h1>
+            <a name="Filmes">
+                <h1>Filmes</h1>
+            </a>
             <nav class="titulo Rei-Arthur">
                 <a href="Movies/Rei-Arthur.html">
                     <img class="Capa Rei-Arthur" src="Images/Rei-Arthur.jpg" />
@@ -251,13 +275,13 @@
                 </a>
             </nav>
 
-            <nav class="titulo Interstellar" style="display: none">
-                <a href="Movies/Interstellar.html">
-                    <img class="Capa Interstellar" src="Images/Interstellar.jpg" />
+            <nav class="titulo A-noiva-cadaver">
+                <a href="Movies/A-noiva-cadaver.html">
+                    <img class="Capa A-noiva-cadaver" src="Images/A noiva cadaver.jpg" />
                     <ul class="info">
-                        <li class="topic-Title"><strong>Interstellar</strong></li>
+                        <li class="topic-Title"><strong>A-noiva-cadaver</strong></li>
                         <li class="topic-Subtitle"></li>
-                        <li class="topic">Duração: 2h 49min 04s</li>
+                        <li class="topic">Duração: 1h 17min 11s</li>
                         <li class="topic">Dublado</li>
                     </ul>
                 </a>
@@ -265,23 +289,26 @@
         </div><!--Fim div filmes-->
 
         <div class="series">
-            <h1>Séries</h1>
+            <a name="Series">
+                <h1>Séries</h1>
+            </a>
+
             <nav class="titulo Sherlock">
-                <a href="Movies/Sherlock.html">
+                <a href="Series/Sherlock.html">
                     <img class="Capa Sherlock" src="Images/Sherlock.jpg" />
                     <ul class="info">
                         <li class="topic-Title"><strong>Sherlock</strong></li>
                         <li class="topic">1ª Temporada</li>
                         <li class="topic">Episódio 1</li>
                         <li class="topic">Study in Pink</li>
-                        <li class="topic">Duração: 55min</li>
+                        <li class="topic">Duração: 55min 14s</li>
                         <li class="topic">Legendado</li>
                     </ul>
                 </a>
             </nav>
 
             <nav class="titulo Chernobyl">
-                <a href="Movies/Chernobyl/Chernobyl_index.html">
+                <a href="Series/Chernobyl/Chernobyl_index.html">
                     <img class="Capa Chernobyl" src="Images/Chernobyl/Chernobyl.jpg" />
                     <ul class="info">
                         <li class="topic-Title"><strong>Chernobyl</strong></li>

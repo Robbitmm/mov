@@ -4,9 +4,9 @@
 }
 
 .sequencia2 { 
-    margin-left: 460px;
     margin-top: 20px;
-}/*Para títulos com duas sequ�ncias*/
+    margin-left: 460px;
+}/*Para títulos com duas sequencias*/
 
  .sequencia3{
      margin-top: 20px;
@@ -41,7 +41,7 @@ a {
 .info {
     position: absolute;
     right: 35px;
-    bottom: -15px; /*N�o pode ser usando top*/
+    bottom: -15px; /*Não pode ser usando top*/
     
     width: 145px;
     border-radius: 10px;

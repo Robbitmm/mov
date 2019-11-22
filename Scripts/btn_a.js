@@ -1,6 +1,6 @@
 function db() {
     var frame = document.getElementById("movieFrame")
-    var btn = document.getElementById("btn")
+    var btn = document.getElementById("menu-button")
     var db = document.getElementById("button-dublado")
     var lg = document.getElementById("button-legendado")
 
@@ -15,7 +15,7 @@ function db() {
 
 function lg() {
     var frame = document.getElementById("movieFrame")
-    var btn = document.getElementById("btn")
+    var btn = document.getElementById("menu-button")
     var db = document.getElementById("button-dublado")
     var lg = document.getElementById("button-legendado")
 

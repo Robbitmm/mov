@@ -14,17 +14,11 @@ iframe{
     text-align: center;
 }
 
-        /*Botıes*/
-
+        /*Bot√µes*/
 .menu-button{
     position: relative;
-}
-
-.btn{
-    position: relative;
-    display: block;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 200px;
     padding-left: 430px;
 }
 
@@ -40,14 +34,6 @@ iframe{
 
 .plaing{
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 70px;
     padding-left: 550px;
-}
-
-#logo {
-    position: relative;
-    padding-top: 10px;
-    padding-left: 10px;
-    width: 250px;
-    /*float: left;*/
 }
