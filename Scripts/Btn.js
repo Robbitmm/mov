@@ -95,3 +95,7 @@ function D_button() {
         $Btn.classList.add("open")
     }
 }
+
+function redirect(){
+    window.location.href = "https://watchers-dark.herokuapp.com/";
+}
