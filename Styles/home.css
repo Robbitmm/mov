@@ -1,3 +1,7 @@
+body{
+    display: none;
+}
+
 .filmes, .series {
     width: 1200px;
 
